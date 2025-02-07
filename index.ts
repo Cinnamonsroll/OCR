@@ -39,6 +39,7 @@ interface ImageMetadata {
 
 const ALLOWED_DOMAINS = new Set([
   "discord.mx",
+  "i.imgur.com"
 ]);
 
 async function loadImage(source: ImageSource): Promise<ImageMetadata> {
